@@ -11,7 +11,7 @@ const Menu = () => {
   const [isMobile, setIsMobile] = useState(false);
 
   // API base URL
-  const API_URL = 'http://localhost:5000';
+  const API_URL = 'https://machinetestdeepnetsoft.onrender.com';
 
   // Check if the screen is mobile
   useEffect(() => {

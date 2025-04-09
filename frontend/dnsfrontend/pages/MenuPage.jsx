@@ -8,7 +8,7 @@ function MenuPage() {
   const [error, setError] = useState(null);
   
   // API base URL - correct port
-  const API_URL = 'http://localhost:5000';
+  const API_URL = 'https://machinetestdeepnetsoft.onrender.com';
 
   // Fetch categories on component mount
   useEffect(() => {

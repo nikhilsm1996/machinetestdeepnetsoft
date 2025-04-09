@@ -12,7 +12,7 @@ const MenuModal = ({ onCategoryAdded }) => {
   const [error, setError] = useState(null);
 
   // API base URL - correct port
-  const API_URL = 'http://localhost:5000';
+  const API_URL = 'https://machinetestdeepnetsoft.onrender.com';
 
   const handleItemChange = (index, field, value) => {
     const updatedItems = [...items];
